@@ -27,3 +27,6 @@
 
 ## Run project:
 `python3 main.py`
+
+## Author:
+[buingohoanglong](https://github.com/buingohoanglong/)
