@@ -1,4 +1,5 @@
 # Simple Vietnamese bus answering system
+[github link](https://github.com/buingohoanglong/NLP-assignment)
 
 ## Project structure
 1. **Input** folder:
