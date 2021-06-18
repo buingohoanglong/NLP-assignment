@@ -17,11 +17,11 @@ def main():
     result_lst = []
     for q in questions:
         # answer question
-        tree = maltParser(q)
-        gr = grammatical_relation(tree)
-        lf = gr2lf(gr)
-        ps = lf2ps(lf)
-        result = query(ps)
+        tree = maltParser(q) # dependency tree
+        gr = grammatical_relation(tree) # grammatical relation
+        lf = gr2lf(gr) # logical form
+        ps = lf2ps(lf)  # procedural semantic
+        result = query(ps) # query's result
         
         # record result of each step
         tree_lst.append(str(tree))
